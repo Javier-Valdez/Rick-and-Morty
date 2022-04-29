@@ -1,0 +1,29 @@
+:root{
+    font-family: "arial";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+    border: thin solid gray;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 15px;
+    
+}
+
+.datos{
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
